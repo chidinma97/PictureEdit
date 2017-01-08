@@ -8,8 +8,8 @@ import javax.swing.JPanel;
 
 public class A7SetupTest {
 	public static void main(String[] args) throws IOException {
-		Picture p = A7Helper.readFromURL("http://www.cs.unc.edu/~kmp/kmp.jpg");
-		PixelInspector pixel_inspector = new PixelInspector(p, "K to the M to the P");
+		Picture p = A7Helper.readFromURL("http://classroomclipart.com/TN_viking-with-sword-and-wooden-shield-clipart.jpg");
+		PixelInspector pixel_inspector = new PixelInspector(p, "Fight");
 		ImageAdjuster image_adjuster = new ImageAdjuster(p);
 		
 		JFrame main_frame = new JFrame();
